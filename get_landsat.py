@@ -35,6 +35,13 @@ def build_url(sat='LC',sens='8',spath='003', srow='017',yr='2014',
 	scene_url = 'https://s3-us-west-2.amazonaws.com/landsat-pds/'+'L'+sens+'/'+spath+'/'+srow+'/'+scene_end+'/'
 
 	return scene_img, scene_url
+#TO DO
+"""
+Get scene list from AWS
+-For a given input scene, print to screen which scenes are available
+-Prompt selection of scenes
+-Download to folder
+"""
 
 #
 tmp_imgname, tmp_url  = build_url()
